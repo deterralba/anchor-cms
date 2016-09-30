@@ -29,9 +29,8 @@ h1 {
 	.slidey b, .slidey label {
 		display: block;
 		font-weight: 500;
-		padding-bottom: 15px;
+		padding-bottom: 7px;
 
-		font-size: 15px;
 		font-weight: 500;
 	}
 	.slidey form, .slidey aside {
@@ -39,8 +38,10 @@ h1 {
 		width: 50%;
 	}
 		.slidey form input {
-			padding: 20px;
+			padding: 10px;
 			width: 75%;
+            background-color: white;
+            border: none;
 		}
 	.slidey li {
 		list-style: none;
@@ -75,7 +76,7 @@ h1 {
 
 		color: #8895a7;
 	}
-		#top #logo:hover, #top ul a:hover, #top ul .active a, .posts .items li:first-child h2 a:hover, p a:hover {
+		#top #logo:hover, #top ul a:hover, #top ul .active a, p a:hover {
 			color: #4171b1;
 		}
 	#top ul {
@@ -116,18 +117,14 @@ h1 {
 	list-style: none;
 }
 	.items > li {
-		padding: 70px 0 60px;
+		padding: 40px 0;
 
 		color: #97aec9;
 		background: #3c4552;
 	}
-		.posts .items > li:first-child {
-			background: #fff !important;
-			padding: 110px 0;
-		}
-			.items li h1 a, .posts .items > li:first-child h2 a {
-				color: #3d4551;
-			}
+        .items li h1 a {
+            color: #3d4551;
+        }
 	.items h1 {
 		padding: 0 0 8px;
 	}
@@ -192,6 +189,7 @@ h1 {
  */
 .content {
 	padding-bottom: 50px;
+	padding-top: 30px;
 }
 	.content  ul, .content ol, .items li ul {
 		padding: 20px 30px;
@@ -215,7 +213,7 @@ h1 {
 	color: #98a2b1;
 	font-size: 14px;
 	font-style: italic;
-	
+
 	white-space: nowrap;
 }
 	.footnote {
