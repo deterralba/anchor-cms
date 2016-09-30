@@ -1,5 +1,2 @@
-Theme name:    Default
-Description:   This is the default, shiny theme for Anchor CMS.
-Author name:   Visual Idiot
-Author site:   http://visualidiot.com
-License:       http://licence.visualidiot.com
+Theme name:    Default-Adapted
+Description:   Adapted default theme for deterralba.
